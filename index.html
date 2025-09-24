@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>سحب على iPhone 17</title>
+  <style>
+    body{
+      margin:0;
+      font-family:"Segoe UI",Roboto,"Noto Sans Arabic",sans-serif;
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:linear-gradient(135deg,#0f172a,#1e293b,#0f172a);
+      background-size:400% 400%;
+      animation:gradient 14s ease infinite;
+    }
+    @keyframes gradient{
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+    }
+
+    .card{
+      backdrop-filter:blur(16px);
+      background:rgba(255,255,255,0.07);
+      border:1px solid rgba(255,255,255,0.1);
+      border-radius:22px;
+      padding:28px 24px;
+      text-align:center;
+      max-width:380px;
+      width:90%;
+      box-shadow:0 8px 28px rgba(0,0,0,0.5);
+      color:#f1f5f9;
+      animation:fadeUp 1s ease;
+    }
+    @keyframes fadeUp{
+      from{opacity:0; transform:translateY(30px)}
+      to{opacity:1; transform:translateY(0)}
+    }
+
+    img{
+      width:180px;
+      border-radius:18px;
+      margin-bottom:18px;
+      box-shadow:0 0 16px rgba(255,255,255,0.85);
+      animation:pop 1.2s ease;
+    }
+    @keyframes pop{
+      0%{transform:scale(0.85); opacity:0}
+      100%{transform:scale(1); opacity:1}
+    }
+
+    h1{
+      margin:0 0 12px;
+      font-size:24px;
+      font-weight:800;
+      color:#fff;
+    }
+
+    p{
+      margin:0 0 18px;
+      font-size:15px;
+      line-height:1.7;
+      color:rgba(255,255,255,0.85);
+    }
+
+    /* خط فاصل أنيق */
+    .divider{
+      width:60%;
+      height:1px;
+      background:rgba(255,255,255,0.2);
+      margin:0 auto 22px;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      padding:14px 26px;
+      font-size:16px;
+      font-weight:700;
+      border-radius:14px;
+      background:linear-gradient(135deg,#ffffff,#e2e8f0);
+      color:#1e293b;
+      text-decoration:none;
+      box-shadow:0 0 18px rgba(255,255,255,0.85);
+      transition:transform 0.25s,opacity 0.25s,box-shadow 0.3s;
+      animation:pulse 3s infinite;
+    }
+    .btn:hover{
+      opacity:0.95;
+      transform:translateY(-3px) scale(1.03);
+      box-shadow:0 0 25px rgba(255,255,255,0.95);
+    }
+
+    @keyframes pulse {
+      0%,100% { box-shadow:0 0 18px rgba(255,255,255,0.7); }
+      50% { box-shadow:0 0 28px rgba(255,255,255,0.95); }
+    }
+
+    .btn svg{
+      width:20px;
+      height:20px;
+      fill:#1da1f2;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/71GLMJ7TQiL._AC_UL320_.jpg" alt="iPhone 17" />
+    <h1>سحب على iPhone 17</h1>
+    <p>شارك الآن للحصول على فرصة للفوز بالهاتف الأحدث من آبل</p>
+    <div class="divider"></div>
+    <a href="https://t.me/YourUsername" class="btn">
+      <!-- أيقونة تيليجرام -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M248,8C111,8,0,119,0,256s111,248,248,248,248-111,248-248S385,8,248,8Zm104.7,169.1L310,367.4c-2.1,9.6-7.7,11.9-15.6,7.4l-43-31.7-20.7,19.9c-2.3,2.3-4.2,4.2-8.5,4.2l3-42.9,78-70.5c3.4-3,0-4.7-5.3-1.7l-96.3,60.7-41.4-12.9c-9-2.8-9.2-9-1.9-13.3l161.5-62.2c7.4-2.7,13.9,1.7,11.5,12.7Z"/></svg>
+      مشاركة في السحب
+    </a>
+  </div>
+</body>
+</html>
